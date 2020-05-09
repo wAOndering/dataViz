@@ -22,7 +22,8 @@ plt.ion()
 # Functions
 ##########################################################################
 
-### could be integrated into class ...
+### could be integrated into class for the parameters which are recycle between function ...
+### would be better to have fully standalone functions
 
 def randomDataCreation(Ngp=2, N=10, Nsub=20):
 
