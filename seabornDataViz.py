@@ -1,10 +1,4 @@
 
-'''
-Rumbaugh lab
-Test on data vizualization and code writing
-email: tvaissie@scripps.edu
-'''
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
