@@ -128,7 +128,7 @@ def customPlot(params, paramsNest, dirName='C:/Users/Windows/Desktop/MAINDATA_OU
     ## add if the study was longitudinal / repeated measures
     castdf=pd.pivot_table(df, values='value', index=['subject'], columns=['genotype'])
     for i in castdf.index:
-        ax.plot([0,1], castdf.loc[i,[0,1]], linestyle='-', color = 'gray', alpha = .3)
+        ax.plot([0,1], castdf.loc[i,['0','1']], linestyle='-', color = 'gray', alpha = .3)
 
     # fill the figure with appropiate seaborn plot
     # sns.boxplot(dodge = 10, width = 0.2, fliersize = 2, **params)
